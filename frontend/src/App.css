@@ -1,0 +1,20 @@
+* {
+    overflow-y: hidden;
+}
+
+.input-field {
+    margin-top: 50px;
+    background: hsl(0, 0%, 100%);
+    color: #333;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.input-field:focus {
+    border: 1px solid hsl(200, 100%, 70%);
+}
+
+.App {
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+    height: 100vh;
+}
